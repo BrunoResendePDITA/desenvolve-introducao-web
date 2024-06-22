@@ -1,3 +1,5 @@
 # Exercicios_Web
 
-Contém todos exeercícios práticos da disciplina de introdução ao desenvolvimento web.
+Projeto Desenvolve - Itabira
+Programação Básica Web
+PDITA 051
