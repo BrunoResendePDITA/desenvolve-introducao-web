@@ -1,0 +1,42 @@
+/* Exercício 1 */
+
+html {
+    font-size: 20px;
+}
+
+html h1 {
+    font-size: 2rem;
+    /* h1: 40px */
+}
+
+h1 > .principal {
+    font-size: 1.4em;
+    /* .principal: 56px */
+}
+
+html .secundario {
+    font-size: 1.4rem;
+    /* .secundario: 28px */
+}
+
+
+/* Exercício 2 */
+
+/* rgb(219, 78, 68)
+
+15% mais escura: (186, 66, 58)
+15% mais clara: (252, 90, 78)
+
+*/
+
+.cor {
+    color: rgb(219, 78, 68)
+}
+
+.cor_mais_clara {
+    color: rgb(252, 90, 78)
+}
+
+.cor_mais_escura {
+    color: rgb(186, 66, 58)
+}

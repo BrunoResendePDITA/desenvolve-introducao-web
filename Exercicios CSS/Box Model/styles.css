@@ -1,0 +1,57 @@
+/* 1 */
+
+body {
+    max-width: 1280px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.intro {
+    height: 550px;
+}
+
+.design-archives {
+    display: none;
+}
+
+/* 2 */
+
+header {
+    color: white;
+    background: black;
+}
+
+h1 {
+    display: inline-block;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+h2 {
+    display: inline-block;
+}
+
+/* 3 */
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 1em;
+    text-align: center;
+}
+
+/* 4 */
+
+footer {
+    margin: 4%;
+}
+
+footer a {
+    border: solid 2px black;
+    padding: 0.5em;
+    display: inline-block;
+}
