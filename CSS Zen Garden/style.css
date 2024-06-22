@@ -1,0 +1,124 @@
+html {
+    font-family: 'Arial';
+    font-size: 20px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    text-indent: 1em;
+}
+
+.summary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+}
+
+/* 1 */
+
+body {
+    max-width: 1280px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.intro {
+    height: 550px;
+}
+
+.design-archives {
+    display: none;
+}
+
+/* 2 */
+
+header {
+    color: white;
+    background: black;
+}
+
+h1 {
+    display: inline-block;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+h2 {
+    display: inline-block;
+}
+
+/* 3 */
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 1em;
+    text-align: center;
+}
+
+/* 4 */
+
+footer {
+    margin: 4%;
+}
+
+footer a {
+    border: solid 2px black;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+
+
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+}
+
+.design-selection {
+    position: absolute;
+    top: 290px;
+    left: 65%;
+    padding: 0px 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
