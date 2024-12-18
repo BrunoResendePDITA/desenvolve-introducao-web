@@ -1,0 +1,306 @@
+/* Defina uma paleta de cores que você irá trabalhar.
+Essa paleta deverá ter pelo menos três cores: uma cor de fundo, uma cor
+para fonte, e uma cor de destaque. 
+
+Cor de fundo: #24D2E2
+Cor de fonte: #000000
+Cor destaque: #0A2240
+
+*/
+
+html {
+    background-color: #24D2E2;
+    font-family: 'Arial';
+    font-size: 20px;
+}
+
+p {
+    text-indent: 1em;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.summary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+}
+
+/* 1 */
+
+body {
+    max-width: 1280px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.intro {
+    height: 550px;
+}
+
+.design-archives {
+    display: none;
+}
+
+/* 2 */
+
+header {
+    color: white;
+    background: #0A2240;
+}
+
+h1 {
+    display: inline-block;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+h2 {
+    display: inline-block;
+}
+
+/* 3 */
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 1em;
+    text-align: center;
+}
+
+/* 4 */
+
+footer {
+    margin: 4%;
+}
+
+footer a {
+    border: solid 2px black;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+/* 1 */
+
+.page-wrapper {
+    position: relative;
+}
+
+/* 2 */
+
+.explanation {
+    width: 60%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+    margin-right: 35%;
+}
+
+/* 3 */
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+}
+
+.design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+/* 1 */
+
+a {
+    color: #0A2240;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #15488b;
+}
+
+a:visited {
+    font-weight: normal;
+}
+
+/* 2 */
+
+.main p:first-of-type::first-letter { 
+    font-size: 3em;
+    font-family: "Georgia", serif;
+    float: left; 
+    margin-right: 10px;
+}
+
+/* 3 */
+
+.navigation li {
+    border-top: 1px solid;
+}
+
+.navigation li:last-of-type {
+    border-bottom: 1px solid;
+}
+
+/* 1 */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.footer a {
+    flex-grow: 1; 
+    flex-shrink: 0; 
+    flex-basis: 150px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/* 2 */
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefits .text {
+    width: 70%;
+}
+
+.benefits .title {
+    width: 30%;
+    text-align: right;
+}
+
+/* 3 */
+
+.participation {
+    display: flex;
+}
+
+.participation .item {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+/* 4 */
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.participation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.participation:first-of-type {
+    border-top: none;
+}
+
+.benefits .text {
+    width: 70%;
+}
+
+.benefits .title {
+    width: 30%;
+    text-align: right;
+}
+
+.participation .item {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .design-selection {
+        position: static;
+    }
+    
+    .explanation {
+        border-right: none;
+    }
+
+    .participation {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .intro {
+        height: auto;
+    }
+
+    p {
+        text-indent: 0;
+    }
+}
+
+@media print {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    header {
+        background-color: #24D2E2;
+        color: black;
+    }
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
