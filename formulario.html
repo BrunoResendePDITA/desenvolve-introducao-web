@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesquisa de satisfação</title>
+    </head>
+    <body>
+        <h1>Pesquisa de satisfação</h1>
+        <form method="POST">
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+            </p>
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+            </p>
+            <p>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" required>
+            </p>
+            <hr>
+
+            <p>Seu produto foi entregue dentro prazo estipulado?</p>
+                <label for="dentro-prazo-sim">Sim</label>
+                <input type="radio" id="dentro-prazo-sim" name="dentro-prazo">
+
+                <label for="dentro-prazo-nao">Não</label>
+                <input type="radio" id="dentro-prazo-nao" name="dentro-prazo">
+            <hr>    
+            <p>O produto veio danificado?</p>
+                <label for="danificado-sim">Sim</label>
+                <input type="radio" id="danificado-sim" name="danificado">
+
+                <label for="danificado-nao">Não</label>
+                <input type="radio" id="danificado-nao" name="danificado">
+            <hr>
+            <p>
+                <label for="nota-estrelas">Classifique o produto:</label>
+                <select id="nota-estrelas">
+                    <option>1 estrela</option>
+                    <option>2 estrelas</option>
+                    <option>3 estrelas</option>
+                    <option>4 estrelas</option>
+                    <option>5 estrelas</option>
+                </select>
+            </p>
+            <hr>
+            <p>
+                <input type="checkbox" id="compartilhar-dados">
+                <label for="compartilhar-dados">Autorizo compartilhar esses dados com terceiros</label>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+            
+        </form>
+    </body>
+</html>
